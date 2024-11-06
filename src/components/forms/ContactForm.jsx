@@ -1,6 +1,6 @@
 'use client';
-import React, { useEffect } from 'react'
-import { useFormState, useFormStatus } from 'react-dom'
+import React from 'react'
+import { useFormState } from 'react-dom'
 import { toast } from 'react-toastify'
 import './ContactForm.css'
 import submitContactForm from '../../helpers/submitContact';
