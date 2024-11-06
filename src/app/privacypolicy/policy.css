@@ -1,0 +1,4 @@
+.policy-container {
+    display: flex;
+    flex-direction: space-between;
+}

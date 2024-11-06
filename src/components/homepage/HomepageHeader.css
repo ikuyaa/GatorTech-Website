@@ -1,0 +1,135 @@
+.homepage-header-container {
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden !important;
+}
+
+.homepage-header {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 3px solid black;
+    width: 500px;
+    height: 100px;
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 20%;
+    padding-bottom: 100px;
+    transform: translateY(275px);
+}
+
+.header-image {
+    width: 300px;
+    height: 250px;
+    transform: translateY(-160px);
+}
+
+.header-text {
+    margin: auto 0;
+    align-self: center;
+    transform: translateY(-255px);
+}
+
+.homepage-header p {
+    align-self: center;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-decoration-color: var(--light-green-color);
+    text-decoration-thickness: 3px;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
+.typewriter-header {
+    color: var(--light-green-color);
+}
+
+.heading-middle {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.heading-bottom {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-20px);
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .typewriter-header {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .homepage-header{
+        width: 400px;
+    }
+
+    .header-image {
+        transform: translateY(-65%);
+    }
+
+    .heading-middle {
+        padding-top: 2%;
+    }
+
+    .heading-bottom {
+        padding-top: 2%;
+        font-size: 2.5rem;
+        padding-bottom: 125px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .homepage-header{
+        width: 350px;
+
+    }
+
+    .heading-bottom {
+        padding-top: 4%;
+        font-size: 2.3rem;
+
+    }
+}
+
+@media screen and (max-width: 350px){
+    .homepage-header{
+        width: 250px;
+        height: 40px;
+    }
+
+    .header-image {
+        transform: translate(-10%, -65%);
+    }
+
+    .homepage-header p {
+        font-size: 1.3rem;
+    }
+
+    .heading-middle {
+        padding-top: 6%;
+        padding-bottom: 8%;
+    }
+
+    .heading-bottom {
+        padding-top: 2%;
+        font-size: 1.5rem;
+        padding-bottom: 290px;
+    }
+}

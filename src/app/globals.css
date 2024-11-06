@@ -1,0 +1,35 @@
+/* Global Font */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+
+    /* outline: 1px solid #f00 !important; */
+}
+
+:root {
+    --light-green-color: #98A957;
+    --darker-green-color: #748043;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url(../../public/assets/img/lake-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
